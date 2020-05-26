@@ -1,0 +1,36 @@
+$color-yellow: #fca311;
+$color-black: #000000;
+.articles {
+    padding: 50px 0;
+}
+.hire-me {
+    background-color: $color-yellow;
+    border: 1px solid red;
+    border-color: $color-yellow;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    outline: none;
+
+    &:hover {
+        background-color: #e5e5e5;
+        border-color: hsl(42, 78%, 60%);
+        border: 1px solid hsl(42, 78%, 60%);
+    }
+}
+.card-body {
+    background-color: $color-black;
+}
+.card {
+    border: none;
+    .card-title {
+        text-transform: uppercase;
+        color: $color-yellow;
+    }
+
+    .card-text {
+        color: #e5e5e5;
+    }
+}

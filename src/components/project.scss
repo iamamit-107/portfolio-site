@@ -1,0 +1,77 @@
+$color-black: #000000;
+$color-yellow: #fca311;
+.projects {
+    .project-main {
+        margin: 70px 0;
+    }
+    .badges {
+        // justify-content: space-around;
+        // display: flex;
+
+        .badge {
+            margin-right: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            color: hsl(209, 61%, 16%);
+            font-weight: normal;
+            letter-spacing: 2px;
+        }
+
+        .badge-yellow {
+            background-color: #e5e5e5;
+        }
+    }
+
+    .card {
+        margin: 20px 0;
+        box-shadow: 0 4px 8px 0 rgba(238, 201, 39, 0.5),
+            0 6px 20px 0 rgba(235, 115, 115, 0.2);
+
+        .card-text {
+            text-align: justify;
+            color: #e5e5e5;
+        }
+
+        .card-title {
+            text-transform: uppercase;
+            color: $color-yellow;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: $color-black;
+
+            .hire-me {
+                background-color: $color-yellow;
+                border: 1px solid red;
+                border-color: $color-yellow;
+                padding: 5px 10px;
+                border-radius: 10px;
+                margin-top: 10px;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                outline: none;
+
+                &:hover {
+                    background-color: transparent;
+                    border: 1px solid $color-yellow;
+                    color: #e5e5e5;
+                }
+            }
+        }
+
+        .card-body {
+            background-color: $color-black;
+        }
+
+        .card-img-top {
+            //border-bottom: 1px solid hsl(42, 78%, 60%);
+        }
+
+        &:hover {
+            transition: 1.5s;
+            transform: scale(1.1);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+footer {
+    background-color: #000000;
+    padding: 40px 0;
+
+    .icon {
+        margin-top: 20px;
+        .social-icon {
+            margin-right: 5%;
+            margin-left: 5%;
+            color: #fca311;
+            font-size: 30px;
+
+            &:hover {
+                color: #bfbfbf;
+            }
+        }
+    }
+
+    h4 {
+        color: #fca311;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+    }
+}
