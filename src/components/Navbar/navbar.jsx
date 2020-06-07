@@ -2,6 +2,7 @@ import React from "react";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
 
+import cv from "../../img/Ahmed_Faisal_Amit.pdf";
 const Navbar = () => {
     return (
         <div className="fixed-top" style={{ backgroundColor: "#fca311" }}>
@@ -51,7 +52,8 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <a
                                     className="btn btn-down"
-                                    href="https://drive.google.com/uc?id=1UNlkhkUdikVF_YQfWUXExYJjMCyqgK0K&export=download"
+                                    // href="https://drive.google.com/uc?id=1UNlkhkUdikVF_YQfWUXExYJjMCyqgK0K&export=download"
+                                    href={cv}
                                     download
                                 >
                                     Download CV

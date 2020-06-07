@@ -6,7 +6,7 @@ import Footer from "./Footer/footer";
 import img1 from "../img/project1.png";
 import img2 from "../img/project2.png";
 import img3 from "../img/project3.PNG";
-import img4 from "../img/project4.PNG";
+import img4 from "../img/img4.png";
 import img5 from "../img/project5.PNG";
 import img6 from "../img/project6.PNG";
 import ProjectTemplate from "./Projects Page/projectTemplate";
@@ -52,13 +52,13 @@ const ProjectPage = () => {
         },
         {
             img: img4,
-            projectTitle: "Task Manager",
+            projectTitle: "PowerX Gym",
             projectDesc:
-                "This is a task manager app. We can save a task for futute work. We can edit the task. We can remove the task. Local storage is used to save the tasks even after closing the browser. Hooks is used for state creation and loading the info form local storage.",
-            badges: ["React", "Hooks", "Local Storage"],
+                "This is a gym website created with react. It's a MERN stack application. A person can register his gym membership using this site. It has also payment system intrigation. All data are stored in database",
+            badges: ["React", "Hooks", "NodeJS", "MongoDB", "SCSS"],
             text: "Lorem ipsum dolor, sit amet consectetur",
-            link1: "https://github.com/iamamit-107/task-manager",
-            link2: "https://amazing-babbage-92f907.netlify.app/",
+            link1: "https://github.com/iamamit-107/powerXgym",
+            link2: "https://power-x-gym.netlify.app/",
         },
         {
             img: img5,

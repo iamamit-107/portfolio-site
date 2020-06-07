@@ -90,10 +90,10 @@ const Home = () => {
                     </div>
 
                     <div
-                        className="col-lg-6 mb-5 col-md-center"
+                        className="col-lg-6 mb-5 col-md-center justify-content-md-center justify-content-lg-start"
                         data-aos="fade-left"
                     >
-                        <div className="text-center text-md-left">
+                        <div className="text-center text-md-left ">
                             <div className="profile-pic">
                                 <img src={img} alt="" className="img-fluid" />
                             </div>
