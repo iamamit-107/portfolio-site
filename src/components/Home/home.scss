@@ -1,92 +1,92 @@
-$color-yellow: #fca311;
+$color-yellow: #126e82;
 .homepage {
-    overflow: auto;
-    background-color: #1e1e1e;
-    // height: 100vh;
-    .container {
-        height: 100vh;
-    }
-    .row {
-        height: 100%;
-    }
+  overflow: auto;
+  background-color: #d8e3e7;
+  // height: 100vh;
+  .container {
+    height: 100vh;
+  }
+  .row {
+    height: 100%;
+  }
 
-    .col-lg-6 {
-        display: flex;
-        align-items: center;
-        margin-top: 100px;
-    }
+  .col-lg-6 {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+  }
 
-    .home-text {
-        padding-left: 2%;
-        width: 100%;
+  .home-text {
+    padding-left: 2%;
+    width: 100%;
 
-        h1 {
-            font-size: 3rem;
-            color: $color-yellow;
-            font-weight: bold;
-            position: relative;
-            letter-spacing: 2px;
-            &::before {
-                content: "";
-                position: absolute;
-                width: 25%;
-                border: 0.25rem solid $color-yellow;
-                border-radius: 10px;
-                top: -10px;
-            }
-        }
-
-        h4 {
-            font-size: 1rem;
-            color: #e5e5e5;
-            letter-spacing: 3px;
-            margin: 10px 0;
-        }
-
-        .hire-me {
-            color: #000;
-            background-color: $color-yellow;
-            border: 1px solid red;
-            border-color: $color-yellow;
-            padding: 10px 20px;
-            border-radius: 10px;
-            margin-top: 10px;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            outline: none;
-
-            &:hover {
-                background-color: transparent;
-                border-color: $color-yellow;
-                border: 1px solid $color-yellow;
-                color: $color-yellow;
-            }
-        }
-
-        .icon {
-            margin-top: 20px;
-            .social-icon {
-                margin-right: 8%;
-                color: #e5e5e5;
-                font-size: 30px;
-
-                &:hover {
-                    color: $color-yellow;
-                }
-            }
-        }
+    h1 {
+      font-size: 2.5rem;
+      color: $color-yellow;
+      font-weight: bold;
+      position: relative;
+      letter-spacing: 2px;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 25%;
+        border: 0.25rem solid $color-yellow;
+        border-radius: 10px;
+        top: -10px;
+      }
     }
 
-    .profile-pic {
-        position: relative;
-        &::after {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border: 0.25rem solid $color-yellow;
-            right: 0rem;
-            border-radius: 10px;
-        }
+    h4 {
+      font-size: 1rem;
+      color: #132c33;
+      letter-spacing: 3px;
+      margin: 10px 0;
     }
+
+    .hire-me {
+      color: #d8e3e7;
+      background-color: $color-yellow;
+      border: 1px solid red;
+      border-color: $color-yellow;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin-top: 10px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      outline: none;
+
+      &:hover {
+        background-color: transparent;
+        border-color: $color-yellow;
+        border: 1px solid $color-yellow;
+        color: $color-yellow;
+      }
+    }
+
+    .icon {
+      margin-top: 20px;
+      .social-icon {
+        margin-right: 8%;
+        color: #132c33;
+        font-size: 30px;
+
+        &:hover {
+          color: $color-yellow;
+        }
+      }
+    }
+  }
+
+  .profile-pic {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 0.25rem solid $color-yellow;
+      right: 0rem;
+      border-radius: 10px;
+    }
+  }
 }

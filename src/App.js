@@ -10,24 +10,25 @@ import ArticlePage from "./components/Articles/articlePage";
 import Contact from "./components/Contact Me/contact";
 
 function App({ location }) {
-    return (
-        <BrowserRouter>
-            <div
-                style={{
-                    backgroundColor: "#1E1E1E",
-                }}
-            >
-                <Navbar />
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/aboutMe" component={AboutMe} />
-                    <Route path="/projects" component={ProjectPage} />
-                    <Route path="/articles" component={ArticlePage} />
-                    <Route path="/contactme" component={Contact} />
-                </Switch>
-            </div>
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <div
+        className="bg"
+        style={{
+          backgroundColor: "#d8e3e7",
+        }}
+      >
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/aboutMe" component={AboutMe} />
+          <Route path="/projects" component={ProjectPage} />
+          <Route path="/articles" component={ArticlePage} />
+          <Route path="/contactme" component={Contact} />
+        </Switch>
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;
